@@ -4,14 +4,6 @@
 
 A proof-of-concept system that demonstrates autonomous voice agent capabilities for automated outbound calling. Built with VAPI.ai for voice synthesis, this project explores the potential of AI agents in handling automated phone conversations.
 
-## Demo
-
-[![Voice AI dialer agent built with #Windsurf and #Vapi](https://img.youtube.com/vi/Lws32HyvQq4/maxresdefault.jpg)](https://www.youtube.com/watch?v=Lws32HyvQq4)
-
-## Credits
-
-Special thanks to Justin Hughes, founder of Firebringer AI, for providing valuable sales training methodology that has been incorporated into the system's conversational AI prompts.
-
 This project was developed as a submission for the Voice AI Accelerator's boot camp programme. Special thanks to Terrell Gentry and Lenny Cowans for specifying the functional requirements through their challenging project brief.
 
 ## Project Overview
@@ -161,21 +153,3 @@ pnpm dev
 ```sql
 INSERT INTO leads (company_name, phone, email, status)
 VALUES ('Test Company', '+1234567890', 'test@example.com', 'pending');
-```
-
-3. Trigger the cron job:
-```bash
-curl -H "Authorization: Bearer your_cron_secret" http://localhost:3000/api/cron
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view the application.
-
-## Documentation
-
-- [Architecture Overview](docs/architecture.md) - Detailed system design and components
-- [API Documentation](docs/api.md) - API endpoints and usage
-- [Development Roadmap](docs/ROADMAP.md) - Upcoming features and priorities
-
-## License
-
-MIT
